@@ -104,7 +104,7 @@ exportButton:SetScript("OnClick", function ()
     exportFrame.EditBox:HighlightText();
 end);
 
-foundCounter = UI:CreateFontString("addPlayer", UI, "GameFontNormal");
+foundCounter = UI:CreateFontString("addPlayer", "OVERLAY", "GameFontNormal");
 foundCounter:SetPoint("TOP", 0, -60);
 foundCounter:SetText("Found: 0/0")
 
@@ -214,7 +214,7 @@ function HnS_getframe()
     local f = table.remove(textpool)
     if not f then
         --Create your frame here and assign it to f
-        f = UI:CreateFontString("addPlayer", UI, "GameFontNormal");
+        f = UI:CreateFontString("addPlayer", "Overlay", "GameFontNormal");
     else
         --revert any unique changes you may have made to the frame before sticking it in the framepool
     end
