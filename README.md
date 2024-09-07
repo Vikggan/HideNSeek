@@ -1,5 +1,5 @@
-A fork of HideNSeek addon updated for The War Witin (11.0.2) 
+A fork of HideNSeek addon updated for The War Within (11.0.2) 
 
 
-Credits goes to: https://github.com/quacklemtduck
+Cred: https://github.com/quacklemtduck
 
